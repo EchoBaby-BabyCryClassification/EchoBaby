@@ -1,0 +1,26 @@
+{
+    "A_No_Resampling": {
+        "macro_f1_mean": 0.46543867971497044,
+        "recall_class_0_mean": 0.3824615384615385,
+        "recall_class_1_mean": 0.4633333333333334,
+        "recall_class_2_mean": 0.35418894830659536,
+        "recall_class_3_mean": 0.8914007092198581,
+        "recall_class_4_mean": 0.12000000000000002
+    },
+    "B_RandomOverSampler": {
+        "macro_f1_mean": 0.4507563021433105,
+        "recall_class_0_mean": 0.37415384615384617,
+        "recall_class_1_mean": 0.43666666666666665,
+        "recall_class_2_mean": 0.33030303030303027,
+        "recall_class_3_mean": 0.8788120567375886,
+        "recall_class_4_mean": 0.12000000000000002
+    },
+    "C_SMOTE": {
+        "macro_f1_mean": 0.4686911824449333,
+        "recall_class_0_mean": 0.4938461538461539,
+        "recall_class_1_mean": 0.475,
+        "recall_class_2_mean": 0.42709447415329765,
+        "recall_class_3_mean": 0.7740248226950355,
+        "recall_class_4_mean": 0.12000000000000002
+    }
+}

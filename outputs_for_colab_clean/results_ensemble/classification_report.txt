@@ -1,0 +1,13 @@
+=== BEST ENSEMBLE MODEL: A_SoftVoting_60_40 ===
+
+              precision    recall  f1-score   support
+
+           0       0.79      0.44      0.56        25
+           1       0.70      0.44      0.54        16
+           2       0.58      0.21      0.31        33
+           3       0.47      0.90      0.62        48
+           4       0.00      0.00      0.00         5
+
+    accuracy                           0.54       127
+   macro avg       0.51      0.40      0.41       127
+weighted avg       0.57      0.54      0.49       127

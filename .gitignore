@@ -1,0 +1,7 @@
+raw_data/
+cleaned_audio_unique/
+*.wav
+*.mp3
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/

@@ -1,0 +1,57 @@
+{
+    "RandomForest": {
+        "macro_f1_mean": 0.45000651392074087,
+        "macro_f1_std": 0.06034733867666525,
+        "macro_recall_mean": 0.42990875249073,
+        "macro_recall_std": 0.05202861779324664,
+        "recall_class_0_mean": 0.3984615384615385,
+        "recall_class_1_mean": 0.4375,
+        "recall_class_2_mean": 0.33012477718360067,
+        "recall_class_3_mean": 0.9034574468085106,
+        "recall_class_4_mean": 0.08
+    },
+    "ExtraTrees": {
+        "macro_f1_mean": 0.46838690345380163,
+        "macro_f1_std": 0.0757910730169328,
+        "macro_recall_mean": 0.44839689413631845,
+        "macro_recall_std": 0.0643303539923917,
+        "recall_class_0_mean": 0.43784615384615383,
+        "recall_class_1_mean": 0.45,
+        "recall_class_2_mean": 0.3180035650623886,
+        "recall_class_3_mean": 0.9161347517730498,
+        "recall_class_4_mean": 0.12000000000000002
+    },
+    "HistGradientBoosting": {
+        "macro_f1_mean": 0.4252026992441843,
+        "macro_f1_std": 0.05804253286328857,
+        "macro_recall_mean": 0.40983983913458266,
+        "macro_recall_std": 0.05220914689808845,
+        "recall_class_0_mean": 0.4292307692307693,
+        "recall_class_1_mean": 0.46333333333333326,
+        "recall_class_2_mean": 0.39073083778966133,
+        "recall_class_3_mean": 0.685904255319149,
+        "recall_class_4_mean": 0.08
+    },
+    "SVC": {
+        "macro_f1_mean": 0.4092813728311201,
+        "macro_f1_std": 0.06345842074858504,
+        "macro_recall_mean": 0.41912226734467034,
+        "macro_recall_std": 0.07231402462386882,
+        "recall_class_0_mean": 0.4775384615384616,
+        "recall_class_1_mean": 0.5641666666666667,
+        "recall_class_2_mean": 0.35436720142602496,
+        "recall_class_3_mean": 0.5395390070921986,
+        "recall_class_4_mean": 0.16
+    },
+    "LogisticRegression": {
+        "macro_f1_mean": 0.3455732485931406,
+        "macro_f1_std": 0.0640250204372868,
+        "macro_recall_mean": 0.39148877151217576,
+        "macro_recall_std": 0.09057768598424287,
+        "recall_class_0_mean": 0.4452307692307692,
+        "recall_class_1_mean": 0.5516666666666666,
+        "recall_class_2_mean": 0.30606060606060603,
+        "recall_class_3_mean": 0.33448581560283686,
+        "recall_class_4_mean": 0.32
+    }
+}

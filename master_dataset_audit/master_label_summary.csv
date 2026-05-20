@@ -1,0 +1,8 @@
+candidate_5_class_label,raw_count_before_deduplication,unique_count_after_deduplication
+Belly Pain,531,63
+Burping,395,46
+Discomfort,998,85
+Hungry,2350,410
+Tired,524,39
+Exclude,1836,540
+Unknown,3087,1924

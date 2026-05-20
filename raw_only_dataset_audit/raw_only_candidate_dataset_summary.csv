@@ -1,0 +1,5 @@
+candidate_dataset,total_samples,hungry_count,not_hungry_count,belly_pain_count,burping_count,discomfort_count,tired_count
+strict_5class,206,30,176,48,39,69,20
+majority_5class,643,410,233,63,46,85,39
+strict_binary,262,30,232,0,0,0,0
+majority_binary,643,410,233,0,0,0,0

@@ -1,0 +1,105 @@
+--- RAW_DATA_2 ANALİZİ ---
+
+[1] raw_data_2 Klasöründeki Dosyaların Gruplanma Durumu:
+ - Baby Crying Sounds: 1313 adet ses dosyası
+ - Dataset: 889 adet ses dosyası
+ - Infants Cry Sound: 60 adet ses dosyası
+ - belly_pain: 16 adet ses dosyası
+ - burping: 8 adet ses dosyası
+ - cry: 1378 adet ses dosyası
+ - discomfort: 27 adet ses dosyası
+ - hungry: 382 adet ses dosyası
+ - tired: 24 adet ses dosyası
+
+[2] raw_data_2 Benzersizlik Durumu:
+ - Toplam Dosya Sayısı: 4097
+ - Benzersiz (Unique) Dosya Sayısı: 1008
+ - Tekrar Eden (Duplicate) Dosya Sayısı: 3089
+ - Tekrar Oranı: 75.40%
+
+[3] raw_data (Dataset 1) ile Kesişim Analizi yapılıyor...
+ - raw_data (Dataset 1) Toplam Dosya Sayısı: 3554
+ - raw_data (Dataset 1) Benzersiz Dosya Sayısı: 1046
+ - Kesişen (Ortak) Benzersiz Dosya Sayısı (MD5 Hash bazlı): 1002
+
+Kesişen Dosya Örnekleri (İlk 20 ortak dosya ve konumları):
+ Ortak Hash 1: 00e6053b673c2fb6f96b8e1ace9ac3d1
+  -> raw_data içindeki konum(lar): ['Baby Crying Sounds\\laugh\\laugh_1.m4a_26.wav', 'Dataset\\not_cry\\135n.wav']
+  -> raw_data_2 içindeki konum(lar): ['Baby Crying Sounds\\laugh\\laugh_1.m4a_26.wav', 'cry\\laugh\\laugh_1.m4a_26.wav', 'Dataset\\not_cry\\135n.wav']
+--------------------------------------------------
+ Ortak Hash 2: 012d46a1057c852dac5e0c451f5a24ed
+  -> raw_data içindeki konum(lar): ['BABY CRY\\hungry\\8b1faa77-e3ac-48af-bf2a-58aadebefcba-1436798541805-1.7-m-04-hu.wav', 'BABY CRY\\tired\\287c.wav', 'Baby Crying Sounds\\hungry\\8b1faa77-e3ac-48af-bf2a-58aadebefcba-1436798541805-1.7-m-04-hu.wav', 'Baby Crying Sounds\\tired\\287c.wav', 'Dataset\\cry\\287c.wav', 'donateacry_corpus\\hungry\\8b1faa77-e3ac-48af-bf2a-58aadebefcba-1436798541805-1.7-m-04-hu.wav']
+  -> raw_data_2 içindeki konum(lar): ['Baby Crying Sounds\\hungry\\8b1faa77-e3ac-48af-bf2a-58aadebefcba-1436798541805-1.7-m-04-hu.wav', 'Baby Crying Sounds\\tired\\287c.wav', 'cry\\hungry\\8b1faa77-e3ac-48af-bf2a-58aadebefcba-1436798541805-1.7-m-04-hu.wav', 'cry\\tired\\287c.wav', 'Dataset\\cry\\287c.wav', 'hungry\\hungry1 (68).wav']
+--------------------------------------------------
+ Ortak Hash 3: 014d843b14f7592648b0cc7d2813a04e
+  -> raw_data içindeki konum(lar): ['BABY CRY\\belly_pain\\364c.wav', 'BABY CRY\\hungry\\D54D9C2A-56ED-4338-9D1F-2ADB4E081DAD-1430036283-1.0-m-48-hu.wav', 'Baby Crying Sounds\\belly pain\\364c.wav', 'Baby Crying Sounds\\hungry\\D54D9C2A-56ED-4338-9D1F-2ADB4E081DAD-1430036283-1.0-m-48-hu.wav', 'Dataset\\cry\\364c.wav', 'donateacry_corpus\\hungry\\D54D9C2A-56ED-4338-9D1F-2ADB4E081DAD-1430036283-1.0-m-48-hu.wav']
+  -> raw_data_2 içindeki konum(lar): ['Baby Crying Sounds\\belly pain\\364c.wav', 'Baby Crying Sounds\\hungry\\D54D9C2A-56ED-4338-9D1F-2ADB4E081DAD-1430036283-1.0-m-48-hu.wav', 'cry\\belly pain\\364c.wav', 'cry\\hungry\\D54D9C2A-56ED-4338-9D1F-2ADB4E081DAD-1430036283-1.0-m-48-hu.wav', 'Dataset\\cry\\364c.wav', 'hungry\\hungry1 (313).wav']
+--------------------------------------------------
+ Ortak Hash 4: 016f7ca6c5f88964876310d8ab928f7e
+  -> raw_data içindeki konum(lar): ['BABY CRY\\hungry\\AA2CA7F6-4547-4CC0-AA4C-5D7B64727FB5-1437123487-1.1-f-26-hu.wav', 'Baby Crying Sounds\\hungry\\AA2CA7F6-4547-4CC0-AA4C-5D7B64727FB5-1437123487-1.1-f-26-hu.wav', 'Baby Crying Sounds\\tired\\335c.wav', 'Dataset\\cry\\335c.wav', 'donateacry_corpus\\hungry\\AA2CA7F6-4547-4CC0-AA4C-5D7B64727FB5-1437123487-1.1-f-26-hu.wav']
+  -> raw_data_2 içindeki konum(lar): ['Baby Crying Sounds\\hungry\\AA2CA7F6-4547-4CC0-AA4C-5D7B64727FB5-1437123487-1.1-f-26-hu.wav', 'Baby Crying Sounds\\tired\\335c.wav', 'cry\\hungry\\AA2CA7F6-4547-4CC0-AA4C-5D7B64727FB5-1437123487-1.1-f-26-hu.wav', 'cry\\tired\\335c.wav', 'Dataset\\cry\\335c.wav', 'hungry\\hungry1 (247).wav']
+--------------------------------------------------
+ Ortak Hash 5: 0299a151c1fd4c1c1aa4e391e3b25830
+  -> raw_data içindeki konum(lar): ['BABY CRY\\hungry\\415d69b4-6d84-4bf8-97b0-10f8f108dc1d-1430739498797-1.7-m-04-hu.wav', 'Baby Crying Sounds\\discomfort\\147c.wav', 'Baby Crying Sounds\\hungry\\415d69b4-6d84-4bf8-97b0-10f8f108dc1d-1430739498797-1.7-m-04-hu.wav', 'Dataset\\cry\\147c.wav', 'donateacry_corpus\\hungry\\415d69b4-6d84-4bf8-97b0-10f8f108dc1d-1430739498797-1.7-m-04-hu.wav']
+  -> raw_data_2 içindeki konum(lar): ['Baby Crying Sounds\\discomfort\\147c.wav', 'Baby Crying Sounds\\hungry\\415d69b4-6d84-4bf8-97b0-10f8f108dc1d-1430739498797-1.7-m-04-hu.wav', 'cry\\discomfort\\147c.wav', 'cry\\hungry\\415d69b4-6d84-4bf8-97b0-10f8f108dc1d-1430739498797-1.7-m-04-hu.wav', 'Dataset\\cry\\147c.wav', 'hungry\\hungry1 (162).wav']
+--------------------------------------------------
+ Ortak Hash 6: 02ab9bc0519c14f5fdfaa1b3f1d75939
+  -> raw_data içindeki konum(lar): ['BABY CRY\\hungry\\415d69b4-6d84-4bf8-97b0-10f8f108dc1d-1430739528719-1.7-m-04-hu.wav', 'Baby Crying Sounds\\discomfort\\148c.wav', 'Baby Crying Sounds\\hungry\\415d69b4-6d84-4bf8-97b0-10f8f108dc1d-1430739528719-1.7-m-04-hu.wav', 'Dataset\\cry\\148c.wav', 'donateacry_corpus\\hungry\\415d69b4-6d84-4bf8-97b0-10f8f108dc1d-1430739528719-1.7-m-04-hu.wav']
+  -> raw_data_2 içindeki konum(lar): ['Baby Crying Sounds\\discomfort\\148c.wav', 'Baby Crying Sounds\\hungry\\415d69b4-6d84-4bf8-97b0-10f8f108dc1d-1430739528719-1.7-m-04-hu.wav', 'cry\\discomfort\\148c.wav', 'cry\\hungry\\415d69b4-6d84-4bf8-97b0-10f8f108dc1d-1430739528719-1.7-m-04-hu.wav', 'Dataset\\cry\\148c.wav', 'hungry\\hungry1 (163).wav']
+--------------------------------------------------
+ Ortak Hash 7: 02dac4e6080768f213ce615ac651b4da
+  -> raw_data içindeki konum(lar): ['BABY CRY\\hungry\\9090c7a3-bebc-4485-aafc-64e4298da3ac-1430088396663-1.7-f-26-hu.wav', 'Baby Crying Sounds\\hungry\\9090c7a3-bebc-4485-aafc-64e4298da3ac-1430088396663-1.7-f-26-hu.wav', 'Baby Crying Sounds\\tired\\303c.wav', 'Dataset\\cry\\303c.wav', 'donateacry_corpus\\hungry\\9090c7a3-bebc-4485-aafc-64e4298da3ac-1430088396663-1.7-f-26-hu.wav']
+  -> raw_data_2 içindeki konum(lar): ['Baby Crying Sounds\\hungry\\9090c7a3-bebc-4485-aafc-64e4298da3ac-1430088396663-1.7-f-26-hu.wav', 'Baby Crying Sounds\\tired\\303c.wav', 'cry\\hungry\\9090c7a3-bebc-4485-aafc-64e4298da3ac-1430088396663-1.7-f-26-hu.wav', 'cry\\tired\\303c.wav', 'Dataset\\cry\\303c.wav', 'hungry\\hungry1 (217).wav']
+--------------------------------------------------
+ Ortak Hash 8: 033c4b86e22fadae922a6736776c57cb
+  -> raw_data içindeki konum(lar): ['Dataset\\cry\\97c.ogg']
+  -> raw_data_2 içindeki konum(lar): ['Dataset\\cry\\97c.ogg']
+--------------------------------------------------
+ Ortak Hash 9: 035c21cb2125c2be94802c82940d957f
+  -> raw_data içindeki konum(lar): ['Baby Crying Sounds\\laugh\\laugh_1.m4a_56.wav', 'Dataset\\not_cry\\165n.wav']
+  -> raw_data_2 içindeki konum(lar): ['Baby Crying Sounds\\laugh\\laugh_1.m4a_56.wav', 'cry\\laugh\\laugh_1.m4a_56.wav', 'Dataset\\not_cry\\165n.wav']
+--------------------------------------------------
+ Ortak Hash 10: 039427445d02262f54f2c25513c35833
+  -> raw_data içindeki konum(lar): ['Baby Crying Sounds\\silence\\silence.wav_69.wav', 'Dataset\\not_cry\\286n.wav']
+  -> raw_data_2 içindeki konum(lar): ['Baby Crying Sounds\\silence\\silence.wav_69.wav', 'cry\\silence\\silence.wav_69.wav', 'Dataset\\not_cry\\286n.wav']
+--------------------------------------------------
+ Ortak Hash 11: 03e86bcecda7cac72c47e27e17726a5e
+  -> raw_data içindeki konum(lar): ['BABY CRY\\tired\\C421C6FE-DFEE-4080-8AEA-848E7CE4756B-1430548384-1.0-m-26-ti.wav', 'Baby Crying Sounds\\tired\\353c.wav', 'Baby Crying Sounds\\tired\\C421C6FE-DFEE-4080-8AEA-848E7CE4756B-1430548384-1.0-m-26-ti.wav', 'Dataset\\cry\\353c.wav', 'donateacry_corpus\\tired\\C421C6FE-DFEE-4080-8AEA-848E7CE4756B-1430548384-1.0-m-26-ti.wav']
+  -> raw_data_2 içindeki konum(lar): ['Baby Crying Sounds\\tired\\353c.wav', 'Baby Crying Sounds\\tired\\C421C6FE-DFEE-4080-8AEA-848E7CE4756B-1430548384-1.0-m-26-ti.wav', 'cry\\tired\\353c.wav', 'cry\\tired\\C421C6FE-DFEE-4080-8AEA-848E7CE4756B-1430548384-1.0-m-26-ti.wav', 'Dataset\\cry\\353c.wav', 'tired\\14tired.wav']
+--------------------------------------------------
+ Ortak Hash 12: 040f0b09ff820c9fc5df7c0bc85c0848
+  -> raw_data içindeki konum(lar): ['BABY CRY\\belly_pain\\643D64AD-B711-469A-AF69-55C0D5D3E30F-1430138495-1.0-m-72-bp.wav', 'Baby Crying Sounds\\belly pain\\643D64AD-B711-469A-AF69-55C0D5D3E30F-1430138495-1.0-m-72-bp.wav', 'Baby Crying Sounds\\discomfort\\201c.wav', 'Dataset\\cry\\201c.wav', 'donateacry_corpus\\belly_pain\\643D64AD-B711-469A-AF69-55C0D5D3E30F-1430138495-1.0-m-72-bp.wav']
+  -> raw_data_2 içindeki konum(lar): ['Baby Crying Sounds\\belly pain\\643D64AD-B711-469A-AF69-55C0D5D3E30F-1430138495-1.0-m-72-bp.wav', 'Baby Crying Sounds\\discomfort\\201c.wav', 'belly_pain\\3belly_pain.wav', 'cry\\belly pain\\643D64AD-B711-469A-AF69-55C0D5D3E30F-1430138495-1.0-m-72-bp (2).wav', 'cry\\belly pain\\643D64AD-B711-469A-AF69-55C0D5D3E30F-1430138495-1.0-m-72-bp.wav', 'cry\\discomfort\\201c.wav', 'Dataset\\cry\\201c.wav']
+--------------------------------------------------
+ Ortak Hash 13: 04ba994d4afcc420c15ebf4b006f6354
+  -> raw_data içindeki konum(lar): ['Baby Crying Sounds\\silence\\silence.wav_26.wav', 'Dataset\\not_cry\\243n.wav']
+  -> raw_data_2 içindeki konum(lar): ['Baby Crying Sounds\\silence\\silence.wav_26.wav', 'cry\\silence\\silence.wav_26.wav', 'Dataset\\not_cry\\243n.wav']
+--------------------------------------------------
+ Ortak Hash 14: 052bc80fb37accd12e3ae8c2f87915f7
+  -> raw_data içindeki konum(lar): ['BABY CRY\\belly_pain\\454c.wav', 'BABY CRY\\hungry\\aaa57dbd-7b88-454a-963e-6faa2f4ed4e7-1437166513710-1.7-f-04-hu.wav', 'Baby Crying Sounds\\belly pain\\454c.wav', 'Baby Crying Sounds\\hungry\\aaa57dbd-7b88-454a-963e-6faa2f4ed4e7-1437166513710-1.7-f-04-hu.wav', 'Dataset\\cry\\454c.wav', 'donateacry_corpus\\hungry\\aaa57dbd-7b88-454a-963e-6faa2f4ed4e7-1437166513710-1.7-f-04-hu.wav']
+  -> raw_data_2 içindeki konum(lar): ['Baby Crying Sounds\\belly pain\\454c.wav', 'Baby Crying Sounds\\hungry\\aaa57dbd-7b88-454a-963e-6faa2f4ed4e7-1437166513710-1.7-f-04-hu.wav', 'cry\\belly pain\\454c.wav', 'cry\\hungry\\aaa57dbd-7b88-454a-963e-6faa2f4ed4e7-1437166513710-1.7-f-04-hu.wav', 'Dataset\\cry\\454c.wav', 'hungry\\hungry1 (254).wav']
+--------------------------------------------------
+ Ortak Hash 15: 054a2cb61c63fd54eaa428f2ac9a00aa
+  -> raw_data içindeki konum(lar): ['BABY CRY\\hungry\\7E4B9C14-F955-4BED-9B03-7F3096A6CBFF-1430232157-1.0-f-26-hu.wav', 'BABY CRY\\tired\\255c.wav', 'Baby Crying Sounds\\hungry\\7E4B9C14-F955-4BED-9B03-7F3096A6CBFF-1430232157-1.0-f-26-hu.wav', 'Baby Crying Sounds\\tired\\255c.wav', 'Dataset\\cry\\255c.wav', 'donateacry_corpus\\hungry\\7E4B9C14-F955-4BED-9B03-7F3096A6CBFF-1430232157-1.0-f-26-hu.wav']
+  -> raw_data_2 içindeki konum(lar): ['Baby Crying Sounds\\hungry\\7E4B9C14-F955-4BED-9B03-7F3096A6CBFF-1430232157-1.0-f-26-hu.wav', 'Baby Crying Sounds\\tired\\255c.wav', 'cry\\hungry\\7E4B9C14-F955-4BED-9B03-7F3096A6CBFF-1430232157-1.0-f-26-hu.wav', 'cry\\tired\\255c.wav', 'Dataset\\cry\\255c.wav', 'hungry\\hungry1 (61).wav']
+--------------------------------------------------
+ Ortak Hash 16: 056f6125c5a1215527d2e4947d166a01
+  -> raw_data içindeki konum(lar): ['BABY CRY\\lonely\\0f257dac-7d6f-4575-9192-e3b4dcd3d4ef-1430185476161-1.7-f-26-lo.wav']
+  -> raw_data_2 içindeki konum(lar): ['cry\\lonely\\0f257dac-7d6f-4575-9192-e3b4dcd3d4ef-1430185476161-1.7-f-26-lo.wav']
+--------------------------------------------------
+ Ortak Hash 17: 05a54331a8cf6e30595610715ad13456
+  -> raw_data içindeki konum(lar): ['BABY CRY\\hungry\\d1e236a0-e030-4137-9030-5625026cd098-1430477960643-1.2-m-04-hu.wav', 'Baby Crying Sounds\\burping\\495c.wav', 'Baby Crying Sounds\\hungry\\d1e236a0-e030-4137-9030-5625026cd098-1430477960643-1.2-m-04-hu.wav', 'Dataset\\cry\\495c.wav', 'donateacry_corpus\\hungry\\d1e236a0-e030-4137-9030-5625026cd098-1430477960643-1.2-m-04-hu.wav']
+  -> raw_data_2 içindeki konum(lar): ['Baby Crying Sounds\\burping\\495c.wav', 'Baby Crying Sounds\\hungry\\d1e236a0-e030-4137-9030-5625026cd098-1430477960643-1.2-m-04-hu.wav', 'cry\\burping\\495c.wav', 'cry\\hungry\\d1e236a0-e030-4137-9030-5625026cd098-1430477960643-1.2-m-04-hu.wav', 'Dataset\\cry\\495c.wav', 'hungry\\hungry1 (305).wav']
+--------------------------------------------------
+ Ortak Hash 18: 05e99d404079cf356233d4d9786af484
+  -> raw_data içindeki konum(lar): ['Baby Crying Sounds\\noise\\4-187769-B.ogg', 'Dataset\\not_cry\\85n.ogg']
+  -> raw_data_2 içindeki konum(lar): ['Baby Crying Sounds\\noise\\4-187769-B.ogg', 'cry\\noise\\4-187769-B.ogg', 'Dataset\\not_cry\\85n.ogg']
+--------------------------------------------------
+ Ortak Hash 19: 0602cf34594aee85dd4e25a10db07d66
+  -> raw_data içindeki konum(lar): ['Baby Crying Sounds\\silence\\silence.wav_38.wav', 'Dataset\\not_cry\\255n.wav']
+  -> raw_data_2 içindeki konum(lar): ['Baby Crying Sounds\\silence\\silence.wav_38.wav', 'cry\\silence\\silence.wav_38.wav', 'Dataset\\not_cry\\255n.wav']
+--------------------------------------------------
+ Ortak Hash 20: 06d249058aa75bfe1b75473b094afa91
+  -> raw_data içindeki konum(lar): ['BABY CRY\\discomfort\\dc5429de-26b4-48e2-bc47-bc607b9bba06-1430741903654-1.7-f-72-lo.wav', 'BABY CRY\\lonely\\dc5429de-26b4-48e2-bc47-bc607b9bba06-1430741903654-1.7-f-72-lo.wav']
+  -> raw_data_2 içindeki konum(lar): ['cry\\discomfort\\dc5429de-26b4-48e2-bc47-bc607b9bba06-1430741903654-1.7-f-72-lo.wav', 'cry\\lonely\\dc5429de-26b4-48e2-bc47-bc607b9bba06-1430741903654-1.7-f-72-lo.wav']
+--------------------------------------------------

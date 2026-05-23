@@ -5,3 +5,4 @@ cleaned_audio_unique/
 __pycache__/
 .DS_Store
 .ipynb_checkpoints/
+master_clean_evidence/*.zip

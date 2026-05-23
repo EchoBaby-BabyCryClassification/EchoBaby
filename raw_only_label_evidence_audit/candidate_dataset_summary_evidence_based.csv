@@ -1,0 +1,5 @@
+candidate_dataset,total_unique_samples,class_distribution,hungry_count,not_hungry_count,excluded_unknown_count,excluded_conflict_count,excluded_non_cry_noise_count,imbalance_ratio,recommendation
+strict_5class,109,Discomfort: 47; Hungry: 30; Tired: 15; Burping: 11; Belly Pain: 6,30,79,86,533,324,7.83,Not recommended due to severe sample loss (Hungry class is severely underrepresented at only 30 samples).
+majority_5class,642,Hungry: 411; Discomfort: 83; Belly Pain: 63; Burping: 46; Tired: 39,411,231,86,0,324,10.54,"Highly recommended for 5-class tasks. Preserves crucial samples (410 Hungry, 233 Not Hungry) while resolving minor metadata conflicts."
+strict_binary,109,Not Hungry: 79; Hungry: 30,30,79,86,533,324,0.38,Not recommended. Suffers from similar sample loss in the Hungry class as strict 5-class.
+majority_binary,642,Hungry: 411; Not Hungry: 231,411,231,86,0,324,1.78,"Highly recommended for binary tasks. Delivers a clean, leak-free Hungry vs Not Hungry classification set."

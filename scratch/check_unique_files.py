@@ -1,0 +1,49 @@
+import os
+import hashlib
+
+def get_file_hash(file_path):
+    hasher = hashlib.md5()
+    with open(file_path, 'rb') as f:
+        buf = f.read()
+        hasher.update(buf)
+    return hasher.hexdigest()
+
+def analyze_audio_files(root_dir):
+    all_files = []
+    hashes = {}
+    
+    extensions = ('.wav', '.mp3', '.m4a', '.ogg', '.flac')
+    
+    for root, dirs, files in os.walk(root_dir):
+        for file in files:
+            if file.lower().endswith(extensions):
+                file_path = os.path.join(root, file)
+                all_files.append(file_path)
+                
+                file_hash = get_file_hash(file_path)
+                if file_hash not in hashes:
+                    hashes[file_hash] = []
+                hashes[file_hash].append(file_path)
+    
+    total_files = len(all_files)
+    unique_files = len(hashes)
+    duplicates = total_files - unique_files
+    
+    print(f"Total audio files: {total_files}")
+    print(f"Unique audio files (by content): {unique_files}")
+    print(f"Duplicate files: {duplicates}")
+    
+    if duplicates > 0:
+        print("\nExamples of duplicates (same content, different names/paths):")
+        count = 0
+        for h, paths in hashes.items():
+            if len(paths) > 1:
+                print(f"Hash: {h}")
+                for p in paths:
+                    print(f"  - {p}")
+                count += 1
+                if count >= 5:
+                    break
+
+if __name__ == "__main__":
+    analyze_audio_files("c:\\Users\\ASUS\\Desktop\\aml_project\\raw_data")
